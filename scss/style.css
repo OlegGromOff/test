@@ -1,0 +1,58 @@
+/*
+Error: Invalid CSS after "	}": expected selector or at-rule, was "}"
+        on line 47 of D:/project#1/scss/_top.scss
+        from line 2 of D:\project#1\scss\style.scss
+
+42: 	&:hover{
+43: 		color: green;
+44: 		transition: all 0.5s ease-in-out;
+45: 	}
+46: 	}
+47: }
+
+Backtrace:
+D:/project#1/scss/_top.scss:47
+D:\project#1\scss\style.scss:2
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:312:in `to_tree'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:88:in `block in with_import'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:88:in `with_import'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Koala/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+C:/Program Files/Koala/bin/sass:18:in `load'
+C:/Program Files/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"	}\": expected selector or at-rule, was \"}\"\A         on line 47 of D:/project#1/scss/_top.scss\A         from line 2 of D:\project#1\scss\style.scss\A \A 42: 	&:hover{\A 43: 		color: green;\A 44: 		transition: all 0.5s ease-in-out;\A 45: 	}\A 46: 	}\A 47: }"; }

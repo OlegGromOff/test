@@ -1,0 +1,47 @@
+.top{
+	background-image: url('../image/HERO Img.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+	&__content-wrap{
+		max-width: 1200px;
+		padding: 0 50px;
+		margin: 0 auto;
+		
+	}
+	
+
+			
+}
+
+
+.nav{ 
+	text-align:right;
+	&__ul {
+		margin:0;
+		padding:0;
+	}
+	
+		}
+	&__list {
+		display:inline-block;
+		list-style-type: none;
+		margin-left: 50px;
+		margin-top: 30px;
+	}
+	&__link {
+		font-family: Lato;
+color:  #fffffe;
+font-size: 13.92px;/* Приближение из-за подстановки шрифтов */
+font-weight: 500;
+line-height: 40px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+transform: scaleY(1.0054);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+	text-decoration: none;
+	&:hover{
+		color: green;
+		transition: all 0.5s ease-in-out;
+	}
+	}
+}
